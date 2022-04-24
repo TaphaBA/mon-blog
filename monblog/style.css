@@ -1,0 +1,86 @@
+.articles{
+        margin-top: 30px;
+      }
+      .articles .article{
+        display: flex;
+        flex-wrap:wrap;
+        margin-bottom: 30px;
+      }
+      .articles .article .left img{
+        height: 300px;
+        width: 500px;
+      }
+      .articles .article .right {
+        margin-left: 40px;
+        max-width: 50%;
+      }
+      .articles .article .right p.date{
+        color: #7f7e7e;
+      }
+      .articles .article .right p.description{
+        color: #2d2d2d;
+    
+          }    
+
+        footer {
+            margin-top: 5%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #000;
+            color: white;
+          }
+          footer .colonne p {
+            font-size: 12px;
+            color: #ccc;
+            cursor: pointer;
+              text-decoration: none;
+          }
+          footer .colonne p:hover {
+            color: #fff;
+           } 
+           
+  footer .socialmedia{
+    margin-top: 20%; 
+    display: flex;
+    font-size: 80px;
+    margin-right: 2px;
+  }        
+nav .profile img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+button .colonne{
+  border-bottom-color: #000;
+}
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 0 1%;
+	margin: 0;
+}
+
+a:link{
+  
+  text-decoration: none;
+}
+a:hover{
+  color:white ;
+  text-decoration: none;
+}
+.submit a{
+  color: #7f7e7e;
+}
+.colonne a{
+  color: white
+}
+footer .socialmedia{
+  display: flex;
+  justify-content: space-between;
+}
+footer .colonne .socialmedia{
+  justify-content: space-between;
+}

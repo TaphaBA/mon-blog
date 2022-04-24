@@ -1,0 +1,85 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+body{
+  margin: 10px ;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+nav .profile {
+	display: flex;
+	align-items: center;
+}
+nav .profile img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+nav .profile h1 {
+	margin-left: 10px;
+	font-size: 15px;
+}
+nav .onglets{
+  margin-top: 35px;
+}
+nav .onglets a{
+  text-decoration: none;
+  color:#7f7e7e;
+  margin-right: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid ;
+}
+nav .onglets :hover{
+	border-bottom-color: blue;
+}
+
+
+
+
+.articles{
+    margin-top: 30px;
+  }
+  .articles .article{
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom: 30px;
+  }
+  .articles .article .left img{
+    height: 300px;
+    width: 500px;
+  }
+  .articles .article .right {
+    margin-left: 40px;
+    max-width: 50%;
+  }
+  .articles .article .right p.date{
+    color: #7f7e7e;
+  }
+  .articles .article .right p.description{
+    color: #2d2d2d;
+  }
+
+  footer {
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 10px;
+	background-color: #000;
+	color: white;
+}
+footer .colonne p {
+	font-size: 12px;
+	color: #ccc;
+	cursor: pointer;
+    text-decoration: none;
+}
+footer .colonne p:hover {
+	color: #fff;
+}
+  
